@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Resolution</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+	<style type="text/css">
+		body {
+			font-family: 'Trebuchet MS';
+		}
+
+		.container {
+			display: none;
+		}
+
+		body.loaded .container {
+			display: block;
+		}
+
+		html,
+		body,
+		ul,
+		li,
+		p,
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6 {
+			margin: 0;
+			padding: 10px;
+		}
+
+		span {
+			font-weight: normal;
+			color: #333;
+			padding-left: 5px;
+		}
+
+		.whats-app {
+			display: none;
+		}
+
+		li {
+			list-style-type: none;
+		}
+	</style>
+</head>
+<body>
+	
+	<div class="container">
+		<h1>My resolution is:</h1>
+		<h4>width: <span class="viewport-width"></span>px</h4>
+		<h4>height: <span class="viewport-height"></span>px</h4>
+		<h4>User agent: <span class="user-agent"></span></h4>
+		<h4>Mobile device: <span class="mobile-device"></span></h4>
+		<h4>Orientation Type: <span class="orientation-type"></span></h4>
+		<h4>Orientation Angle: <span class="orientation-angle"></span></h4>
+	</div>
+	<!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> -->
+	<script type="text/javascript" src="dist/my-resolution.min.js"></script>
+</body>
+</html>
