@@ -1,4 +1,5 @@
-my-resolution
-=============
+# My-resolution
 
-Identify the viewport resolution
+### Usage:
+
+Access [http://sandroweb.github.io/my-resolution/](http://sandroweb.github.io/my-resolution/).
